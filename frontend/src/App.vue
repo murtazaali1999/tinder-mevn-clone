@@ -18,6 +18,7 @@
     <v-app-bar color="orange-lighten-2" height="64">App Bar Squeezed</v-app-bar>
     <v-main>
       <v-card height="1200px" color="green-darken-1">V-CARD</v-card>
+      <v-btn>NEW BUTTON WITH BLUEPRINT</v-btn>
     </v-main>
     <v-navigation-drawer
       color="grey-darken-2"
