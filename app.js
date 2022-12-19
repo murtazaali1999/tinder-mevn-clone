@@ -21,7 +21,7 @@ app.use("/answer", require("./routes/answer"));
 app.use("/question", require("./routes/question"));
 
 //PORT SETUP
-const PORT = process.env.PORT || 4421;
+const PORT = process.env.PORT || 4431;
 const URI = process.env.MONGO_URI;
 
 //LOGS
