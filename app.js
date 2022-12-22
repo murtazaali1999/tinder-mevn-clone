@@ -7,6 +7,7 @@ const jwt = require("jsonwebtoken");
 const mongoose = require("mongoose");
 
 //FILE IMPORTS
+const user = require("./routes/user")
 
 //CONFIGS & DRIVEN
 const app = express();
@@ -14,6 +15,7 @@ dotenv.config({ path: "./config.env" }); //config.env
 app.use(cors()); //cors
 app.use(express.json());
 mongoose.set('strictQuery', false);
+app.use([user]);
 
 //PORT SETUP
 const PORT = process.env.PORT || 4431;
